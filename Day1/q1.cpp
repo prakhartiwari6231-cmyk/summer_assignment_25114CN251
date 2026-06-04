@@ -7,9 +7,9 @@ int main() {
     cout << "Enter a number: ";
     cin >> n;
 
-    sum = n * (n + 1) / 2;
+    sum = n*(n+1)/2;
 
-    cout << "Sum of first " << n << " natural numbers = " << sum;
+    cout<<sum;
 
     return 0;
 }
